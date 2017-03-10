@@ -8,7 +8,7 @@
          "tsc": "tsc",
          "tsc:w":"tsc -w"
      },
-     "license": "UNLICENCED",
+     "license": "GPLv3",
      "repository": {
          "type": "git",
          "url":""
