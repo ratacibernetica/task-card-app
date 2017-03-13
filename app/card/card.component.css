@@ -1,5 +1,6 @@
 .card{
     border-radius: 0;
+    cursor: pointer;
 }
 
 .card,
@@ -8,6 +9,7 @@
     border: none;
 }
 .card.completed,
+.card.completed i,
 .card.completed .card-footer{
     background-color: #EEE;
     color: #CCC;

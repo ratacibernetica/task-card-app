@@ -8,11 +8,13 @@ form{
     text-align: center;
 }
 
-.btn {
+.btn,
+.btn:disabled:hover {
     background-color: #009688;
     border-color: #009688;
     margin-left: 2rem;
 }
+
 
 .form-control:focus {
     border-color: #009688;
@@ -20,4 +22,10 @@ form{
 
 i{
     padding-right: 0.5rem;
+}
+
+h5{
+    color: #CCC;
+    margin-top: 3 rem;
+    text-align: center;
 }
