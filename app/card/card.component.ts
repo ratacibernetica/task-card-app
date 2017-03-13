@@ -15,4 +15,8 @@ export class CardComponent {
     statusToggle() {
         this.task.completed = !this.task.completed;
     }
+
+    softDelete() {
+        this.task.deleted = !this.task.deleted;
+    }
 }
